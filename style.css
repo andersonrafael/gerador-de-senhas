@@ -48,6 +48,8 @@ body{
     margin-top: 20px;
     font-weight: bolder;
     color: ghostwhite;
+    transition: transform 0.8s;
+
 }
 
 .container-password{
@@ -61,12 +63,14 @@ body{
     text-align: center;
     font-size: 20px;
     margin-top: 10px;
+   
     
 }
 .password{
     height: 50px;
     width: 400px;
     font-size: 28px;
+    font-weight: bolder;
     margin-top: 10px;
     background-color: white;
     border-radius: 4px;
@@ -74,16 +78,40 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.8s;
     
 }
 .copy{
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
+    color: black;
     margin-top: 15px;
+    background-color: whitesmoke;
+    position: relative;padding: 6px 8px;
+    width: 400px;
+    border-radius: 4px;
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+    opacity: 0px;
 }
+
+.hide{
+    display: none;
+}
+.container-password:hover .copy{
+    visibility: visible;
+    bottom: 1px;
+    opacity: 1px;
+}
+
 .password:hover{
-transform: scale(1.05);
+    transform: scale(1.03);
 }
+
 .button-cta:hover{
-    transform: scale(1.01);
+    transform: scale(1.03);
+}
+
+.copy:hover{
+    transform: scale(1.03);
 }
