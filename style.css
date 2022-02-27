@@ -38,3 +38,52 @@ body{
     height: 18px;
     outline: none;
 }
+.button-cta{
+    height: 40px;
+    background-color: mediumseagreen;
+    border: 0;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bolder;
+    color: ghostwhite;
+}
+
+.container-password{
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.title{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+.password{
+    height: 50px;
+    width: 400px;
+    font-size: 28px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 4px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.copy{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.password:hover{
+transform: scale(1.05);
+}
+.button-cta:hover{
+    transform: scale(1.01);
+}
